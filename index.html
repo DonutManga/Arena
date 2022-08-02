@@ -13,12 +13,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
+<!--Header Begin-->
     <header>
         <div id="header-container">
             <div class="flex">
                 <div id="logo-header">
                     <span><i class="fa-solid fa-bars"></i></span>
-                    <a href="index.html"><img src="img/svg/logo.svg" alt="logo"></a>
+                    <a href="index.html"><img src="./img/svg/logo.svg" alt="logo"></a>
                 </div>
                 <div id="nav-header">
                     <ul>
@@ -32,13 +33,16 @@
             <div id="list-icon">
                 <span><i class="fa-solid fa-magnifying-glass"></i></span>
                 <span><i class="fa-solid fa-bell"></i></span>
-                <div id="avatar-header"></div>
+                <div id="avatar-header" style="background: url('./img/thao.jpg');background-size: cover;background-position: center;"></div>
             </div>
         </div>
     </header>
+<!--Header End-->
 
 
-    <section id="banner">
+
+<!--Banner Begin-->
+    <section id="banner" style="background: url('img/anh-bia.jpg');background-size: cover;background-position: bottom;">
         <!-- Swiper -->
         <div id="banner-slide">
             <div class="swiper mySwiper">
@@ -78,8 +82,148 @@
             </div>
         </div>
     </section>
+<!--Banner End-->
+
+<!--Begin-->
+    <section id="filter">
+        <div id="filter-container" >
+            <div id="filter-title">
+                <div class="flex">
+                    <div class="filter-title-item">
+                        <span>Thể loại<i class="fa-solid fa-caret-down"></i></span>
+                        <p>Tất cả</p>
+                    </div>
+                    <div class="filter-title-item">
+                        <span>Quốc gia<i class="fa-solid fa-caret-down"></i></span>
+                        <p>Nhật Bản</p>
+                    </div>
+                    <div class="filter-title-item">
+                        <span>Trạng thái<i class="fa-solid fa-caret-down"></i></span>
+                        <p>Đang phát hành</p>
+                    </div>
+                    <div class="filter-title-item">
+                        <span>Năm phát hành<i class="fa-solid fa-caret-down"></i></span>
+                        <p>2022</p>
+                    </div>
+                </div>
+                <div class="filter-title-icon">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                    <span><i class="fa-solid fa-grip"></i></span>
+                </div>
+            </div>
+            <div class="comic">
+                <div class="comic-item">
+                    <img src="img/4c7947aded6c58e4014e20c8a9c559a6.jpg" alt="comic-item">
+                    <h4>Naruto</h4>
+                </div>
+                <div class="comic-item">
+                    <img src="img/9903bbbe9d66f423cfb4f33172aae59f.jpg" alt="comic-item">
+                    <h4>Demon Slayer: Kimetsu no Yaiba</h4>
+                </div>
+                <div class="comic-item">
+                    <img src="img/beef6fdc70c5c549a5ad42a09b6fc36d.jpg" alt="comic-item">
+                    <h4>One Piece - Đảo Hải Tặc</h4>
+                </div>
+                <div class="comic-item">
+                    <img src="img/conan.jpg" alt="comic-item">
+                    <h4>Conan - Thám tử lừng danh Conan</h4>
+                </div>
+                <div class="comic-item">
+                    <img src="img/404ae7143e81f7c909b42382f0c9ff5f.jpg" alt="comic-item">
+                    <h4>Fairy Tail: Hội pháp sư nổi tiếng</h4>
+                </div>
+                <div class="comic-item">
+                    <img src="img/Tokyo%20Ghoul.jpg" alt="comic-item">
+                    <h4>Tokyo Ghoul: Ngạ quỷ vùng Tokyo</h4>
+                </div>
+                <div class="comic-item">
+                    <img src="img/dre.jpg" alt="comic-item">
+                    <h4>Doraemon</h4>
+                </div>
+                <div class="comic-item">
+                    <img src="img/Jagaaaaaan.jpg" alt="comic-item">
+                    <h4>Jagaaaaaan</h4>
+                </div>
+                <div class="comic-item">
+                    <img src="img/Rave%20Master.jpg" alt="comic-item">
+                    <h4>Rave Master: Thanh kiếm biến hình</h4>
+                </div>
+                <div class="comic-item">
+                    <img src="img/Yu%20Yu%20Hakusho.jpg" alt="comic-item">
+                    <h4>Yu Yu Hakusho: Hành trình U Linh Giới</h4>
+                </div>
+                <div class="comic-item">
+                    <img src="img/Uzumaki.jpg" alt="comic-item">
+                    <h4>Uzumaki</h4>
+                </div>
+                <div class="comic-item">
+                    <img src="img/Berserk.jpg" alt="comic-item">
+                    <h4>Berserk: Kiếm sĩ đen</h4>
+                </div>
+                <div class="comic-item">
+                    <img src="img/Oyasumi%20Punpun.jpg" alt="comic-item">
+                    <h4>Oyasumi Punpun: Ngủ ngon Punpun</h4>
+                </div>
+                <div class="comic-item">
+                    <img src="img/One-Punch%20Man.jpg" alt="comic-item">
+                    <h4>One-Punch Man</h4>
+                </div>
+                <div class="comic-item">
+                    <img src="img/Kochikame.jpg" alt="comic-item">
+                    <h4>Kochikame</h4>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<!--End-->
+
+<!--Top Manga Begin-->
+    <section id="TopComic">
+        <div id="TopComic-container">
+            <div class="title-item">
+                <h2>Top manga</h2>
+            </div>
+            <div class="comic-top">
+                <div class="comic-top-item">
+                    <div class="comic-top-item-img" style="background: url('./img/154ef5887b6ca010f3491b2799f6ceb0.jpg');background-size: cover;background-position: center">
+                        <h4>One Piece - Đảo Hải Tặc</h4>
+                    </div>
+                </div>
+                <div class="comic-top-item">
+                    <div class="comic-top-item-img" style="background: url('./img/SLAM-DUNK.jpg');background-size: cover;background-position: center">
+                        <h4>Slam Dunk – Cao thủ bóng rổ</h4>
+                    </div>
+                </div>
+                <div class="comic-top-item">
+                    <div class="comic-top-item-img" style="background: url('./img/bleach.png');background-size: cover;background-position: center">
+                        <h4>Bleach: Sứ giả thần chết</h4>
+                    </div>
+                </div>
+                <div class="comic-top-item">
+                    <div class="comic-top-item-img" style="background: url('./img/titan.png');background-size: cover;background-position: center">
+                        <h4>Attack on Titan: Đại chiến Titan</h4>
+                    </div>
+                </div>
+                <div class="comic-top-item">
+                    <div class="comic-top-item-img" style="background: url('./img/kimetsu.jpg');background-size: cover;background-position: center">
+                        <h4>Demon Slayer: Kimetsu no Yaiba</h4>
+                    </div>
+                </div>
+                <div class="comic-top-item">
+                    <div class="comic-top-item-img" style="background: url('./img/naruto.png');background-size: cover;background-position: center">
+                        <h4>Naruto</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Top Manga End-->
 
 
+
+<!--Footer Begin-->
+    <div id="ButtonBackTop"><a href="#banner"><i class="fa-solid fa-angle-up"></i></a></div>
     <footer>
         <div id="footer-container">
             <div id="logo-footer">
@@ -119,6 +263,7 @@
             </div>
         </div>
     </footer>
+<!--Footer End-->
 </body>
 <!--  Swiper  -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>

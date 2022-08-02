@@ -2,9 +2,6 @@
 #banner {
     width: 100%;
     height: 700px;
-    background: url("../img/anh-bia.jpg");
-    background-size: cover;
-    background-position: bottom;
     position: relative;
 }
 
@@ -96,3 +93,114 @@ body {
 
 /*Banner-end*/
 
+/*Filter*/
+#filter-container {
+    margin:100px 100px 0 100px;
+}
+#filter-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter-title-item {
+    color: #FFFFFF;
+    margin-right: 40px;
+    text-align: left;
+}
+.filter-title-item span {
+    opacity: 0.65;
+    font-size: 12px;
+}
+.filter-title-item p{
+    display: block;
+}
+.filter-title-item p,.filter-title-item span {
+    font-family: "Roboto Thin",sans-serif;
+}
+.filter-title-icon span{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.comic {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 29px;
+    row-gap: 5px;
+    margin-top: 30px;
+}
+.comic-item img {
+    display: block;
+    border-radius: 15px;
+    width: 240px;
+    height: 338.71px;
+    object-fit: cover;
+}
+.comic-item h4 {
+    color: #FFFFFF;
+    font-family: "Roboto Medium",sans-serif;
+    width: 240px;
+    margin: 25px 0;
+}
+/*Filter-end*/
+
+
+/*Top Manga*/
+.title-item h2{
+    color: #DE0607;
+    border-bottom: solid 2px #DE0607;
+    text-align: left;
+    padding: 10px 0;
+    display: inline-block;
+}
+#TopComic-container{
+    margin:0 100px 100px 100px;
+}
+.comic-top {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 59px;
+    row-gap: 35px;
+}
+.comic-top-item .comic-top-item-img {
+    height: 260px;
+    width: 400px;
+    border-radius: 15px;
+    position: relative;
+}
+.comic-top-item-img h4 {
+    color: #FFFFFF;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
+    width: 100%;
+    background: linear-gradient(180deg,transparent, #171717);
+    display: block;
+    border-radius: 15px;
+    font-family: "Roboto Bold",sans-serif;
+}
+/*Top Manga-end*/
+
+/*Button back top*/
+#ButtonBackTop {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #DE0607;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+#ButtonBackTop a {
+    color: #FFFFFF;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+/*Button back top end*/
