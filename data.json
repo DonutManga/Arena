@@ -1,5 +1,313 @@
 [
   {
+    "id" : "ani_01",
+    "title": "Bleach",
+    "describe": "Ichigo Kurosaki là một thiếu niên hung hăng, hay gây rắc rối và cậu có được một năng lực đặc bệt là có thể nhìn thấy linh hồn. Câu chuyện bắt đầu với sự xuất hiện bất ngờ của một người lạ ngay trong phòng ngủ của Ichigo. Người lạ mặt này chính là Shinigami (thần chết) Rukia Kuchiki, vô cùng ngạc nhiên trước việc Ichigo có thể nhìn thấy cô. Cuộc hội thoại của họ bị cắt ngang bằng việc một ác ma tấn công vào nhà của Ichigo. Sau khi bị thương tích đầy mình vì phải ra tay bảo vệ Ichigo, cô quyết định truyền một nửa năng lực thần chết của mình cho Ichigo để Ichigo tiêu diệt ác ma đó nhưng Ichigo lại vô tình lấy hết năng lượng của cô, giúp cậu tiêu diệt ác ma đó một cách dễ dàng. Ngày hôm sau, Rukia xuất hiện trong lớp học của Ichigo với tư cách là học sinh mới chuyển đến. Càng ngạc nhiên hơn nữa khi cậu biết rằng Rukia bây giờ là một người bình thường. Cô đặt giả thiết rằng chính năng lực kỳ lạ của Ichigo đã hút hết năng lực của cô, khiến cô bị mắc kẹt lại nhân gian, không trở lại Cõi Âm được nữa. Rukia đã chuyển linh hồn cô vào trong một gigai - một cơ thể nhân tạo - trong khi phục hồi lại năng lượng của mình. Trong thời gian này, cô phải chuyển giao công việc của mình cho Ichigo, tiệu diệt ác ma và đưa những linh hồn lạc lối đến Cõi Âm.",
+    "cover_img": "img/bleach.png",
+    "list_chapter": [
+      {
+        "id": "Bleach_c_01",
+        "content": "link ảnh chương 1"
+      }
+    ],
+    "vote": [
+      {
+        "user_id": "01",
+        "number": 5
+      },
+      {
+        "user_id": "02",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "id" : "ani_02",
+    "title": "Blue Lock",
+    "describe": "Yoichi Isagi đã bỏ lỡ cơ hội tham dự giải Cao Trung toàn quốc do đã chuyền cho đồng đội thay vì tự thân mình dứt điểm. Cậu là một trong 300 chân sút U-18 được tuyển chọn bởi Jinpachi Ego, người đàn ông được Hiệp Hội Bóng Đá Nhật Bản thuê sau hồi FIFA World Cup năm 2018, nhằm dẫn dắt Nhật Bản vô địch World Cup bằng cách tiêu diệt nền bóng đá Nhật Bản. Kế hoạch của Ego gồm việc cô lập 300 tay sút trong một nhà ngục - dưới một tổ chức với tên gọi là Blue Lock, với mục tiêu là tạo ra chân sút tự phụ nhất thế giới, điều mà nền bóng đá Nhật Bản còn thiếu",
+    "cover_img": "img/Blue Lock.jpg",
+    "list_chapter": [
+      {
+        "id": "BlueLock_c_01",
+        "content": "link ảnh chương 1"
+      }
+    ],
+    "vote": [
+      {
+        "user_id": "01",
+        "number": 5
+      },
+      {
+        "user_id": "02",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "id" : "ani_03",
+    "title": "Boruto",
+    "describe": "Naruto là một chàng trai trẻ đầy nhiệt huyết cũng như rất nghịch ngợm, trải qua bao nhiêu thăng trầm, cậu trở thành anh hùng của thế giới nhẫn giả và lên chức Hokage làng lá. Nhưng câu chuyện này không phải về naruto, mà là về con trai của naruto, chính là Boruto.",
+    "cover_img": "img/Boruto.jpg",
+    "list_chapter": [
+      {
+        "id": "Boruto_c_01",
+        "content": "link ảnh chương 1"
+      }
+    ],
+    "vote": [
+      {
+        "user_id": "01",
+        "number": 5
+      },
+      {
+        "user_id": "02",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "id" : "ani_04",
+    "title": "Thám Tử Lừng Danh Conan",
+    "describe": "Mở đầu câu truyện, cậu học sinh trung học 17 tuổi (trong truyện tranh là 16) Shinichi Kudo (Jimmy Kudo) bị biến thành cậu bé Conan Edogawa. Shinichi trong phần đầu của Thám tử lừng danh Conan được miêu tả là một thám tử học đường. Trong một lần đi chơi công viên \"Miền Nhiệt đới\" với cô bạn từ thuở nhỏ (cũng là bạn gái) Ran Mori (Rachel Moore), cậu bị dính vào vụ án một hành khách trên Chuyến tàu tốc hành trong công viên, Kishida (Kenneth), bị giết trong một vụ án cắt đầu rùng rợn. Cậu đã làm sáng tỏ vụ án và trên đường về nhà, chứng kiến một vụ làm ăn mờ ám của những người đàn ông mặc toàn đồ đen. Kudo bị phát hiện, bị đánh ngất sau đó những người đàn ông áo đen đã cho cậu uống một thứ thuốc độc chưa qua thử nghiệm là Apotoxin-4869 (APTX4869) với mục đích thủ tiêu cậu. Tuy nhiên chất độc đã không giết chết Kudo. Khi tỉnh lại, cậu bàng hoàng nhận thấy thân thể mình đã bị teo nhỏ trong hình dạng của một cậu học sinh tiểu học",
+    "cover_img": "img/conan.jpg",
+    "list_chapter": [
+      {
+        "id": "conan_c_01",
+        "content": "link ảnh chương 1"
+      }
+    ],
+    "vote": [
+      {
+        "user_id": "01",
+        "number": 5
+      },
+      {
+        "user_id": "02",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "id" : "ani_05",
+    "title": "Boku No Hero Academia",
+    "describe": "Vào tương lai, lúc mà con người với những sức mạnh siêu nhiên là điều thường thấy quanh thế giới. Đây là câu chuyện về Izuku Midoriya, từ một kẻ bất tài trở thành một siêu anh hùng. Tất cả ta cần là mơ ước...",
+    "cover_img": "img/OneForAll.jpg",
+    "list_chapter": [
+      {
+        "id": "BokuNoHero_c_01",
+        "content": "link ảnh chương 1"
+      }
+    ],
+    "vote": [
+      {
+        "user_id": "01",
+        "number": 5
+      },
+      {
+        "user_id": "02",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "id" : "ani_06",
+    "title": "Kimetsu No Yaiba",
+    "describe": "Từ thời xưa luôn có những truyền thuyết về loài quỷ ăn thịt người rình mò trong các khu rừng khi màn đêm buông xuống. Chính điều này khiến người dân không ai dám vào rừng vào ban đêm. Tuy nhiên, Tanjiro, một cậu trai làm nghề bán củi than sống cùng gia đình trên núi lại không tin vào điều này, cậu quá bận rộn làm nuôi các anh em của mình. Nhưng rồi Tanjiro đã sớm phải tin vào những câu chuyện hảo huyền đó khi hiện thực cay nghiệt đến với cậu...",
+    "cover_img": "img/kimetsu.jpg",
+    "list_chapter": [
+      {
+        "id": "kimetsu_c_01",
+        "content": "link ảnh chương 1"
+      }
+    ],
+    "vote": [
+      {
+        "user_id": "01",
+        "number": 5
+      },
+      {
+        "user_id": "02",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "id" : "ani_07",
+    "title": "DragonballZ-Bảy viên ngọc rồng",
+    "describe": "Dragon Ball Super (Tên gọi khác : Dragon Ball Chou, 7 viên ngọc rồng siêu cấp) là một anime truyền hình dài tập của Toei Animation bắt đầu phát sóng vào ngày 05 tháng 7 năm 2015. Đó là lần đầu tiên anime Dragon Ball được sản xuất sau 18 năm và bắt đầu sau sự thất bại của Majin Boo, hòa bình đến với Trái Đất một lần nữa. Nó được phát sóng vào ngày chủ nhật tại 9:00 trên Fuji TV.\n\nSeri phim sẽ bắt đầu từ cuộc chiến của Majin Buu Saga, sau đó sẽ tiếp đến câu chuyện của Dragon Ball Z - Battle of Gods và Sự hồi sinh của Frieza như vòng lập câu chuyện mới. Các phần tiếp theo của Dragon Ball Super (7 viên ngọc rồng siêu cấp) này sẽ diễn ra trong vũ trụ 6 với các chiến binh Z sẽ phải Siêu Ngọc Rồng mới.",
+    "cover_img": "img/DragonballZ.jpg",
+    "list_chapter": [
+      {
+        "id": "DBZ_c_01",
+        "content": "link ảnh chương 1"
+      }
+    ],
+    "vote": [
+      {
+        "user_id": "01",
+        "number": 5
+      },
+      {
+        "user_id": "02",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "id" : "ani_08",
+    "title": "Fairy Tail - Hội Pháp Sư",
+    "describe": "Fairy Tail (Hội Pháp Sư) là một series truyện tranh Nhật Bản được sáng tác bởi tác giả Hiro Mashima. Truyện đã được phát hành thành từng kỳ trên tạp chí Weekly Shōnen từ ngày 23 tháng 8 năm 2006 và cho đến bây giờ vẫn đang được tiếp tục. Sau đó những chương truyện riêng được nhà xuất bản Kodansha tổng hợp và phát hành thành từng tập. Tính đến tháng 10 năm 2008, đã có 12 tập truyện Fairy Tail được phát hành. Xuyên suốt câu chuyện là cuộc phiêu lưu của một Sorceress tên là Lucy Heartphilia, sau khi cô tham gia vào hiệp hội hội Fairy Tail, cô đã cùng với Natsu Dragneel hành trình để đi tìm một con rồng tên là Igneel.Phần bạn đang xem là phần ADMIN đã gộp phần 1, phần 2, phần 3 vào 1 phần chung",
+    "cover_img": "img/fairyTail.jpg",
+    "list_chapter": [
+      {
+        "id": "FrT_c_01",
+        "content": "link ảnh chương 1"
+      }
+    ],
+    "vote": [
+      {
+        "user_id": "01",
+        "number": 5
+      },
+      {
+        "user_id": "02",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "id" : "ani_09",
+    "title": "Haikyuu",
+    "describe": "Hinata Shouyou - anh main, sau khi xem xong 1 trận bóng chuyền nọ, đã thần tượng và mơ ước trở thành \"Người khổng lồ tí hon\", và gia nhập đội bóng chuyền của trường trung học. Sau khi tìm đủ thành viên, họ đã tham gia giải đấu liên trường, tại đây họ đã chạm trán với Vua sân đấu Kageyama Tobio và bị dập cho tả tơi. Dù thua nhưng Shouyou vẫn quyết tâm lên top và trả đũa Kageyama. Tuy nhiên, lên cấp 3, oan gia ngõ hẹp thế nào, 2 cậu bé lại gặp nhau trong cùng 1 đội. Câu chuyện sẽ tiếp diễn ra sao?",
+    "cover_img": "img/haikyuu.jpg",
+    "list_chapter": [
+      {
+        "id": "Haikyuu_c_01",
+        "content": "link ảnh chương 1"
+      }
+    ],
+    "vote": [
+      {
+        "user_id": "01",
+        "number": 5
+      },
+      {
+        "user_id": "02",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "id" : "ani_10",
+    "title": "Jujutsu Kaisen - Chú Thuật Hồi Chiến",
+    "describe": "Tại thế giới nơi ác quỷ ăn thịt loài người, những mảnh vỡ của con quỷ huyền thoại Ryoumen Sukuna bị thất lạc và rải rác khắp nơi. Bất kì con quỷ nào hấp thụ được mảnh cơ thể của Sukuna sẽ có được sức mạnh hủy diệt toàn bộ thế giới. May mắn thay, tồn tại ngôi trường bí ẩn đang cố bảo vệ thế giới mong manh khỏi lũ quỷ. Itadori Yuuji là 1 học sinh cao trung thường xuyên đến thăm người ông bệnh liệt giường của mình. Dù vẻ ngoài bình thường nhưng sức mạnh của cậu là thứ không thể đong đếm. Mọi CLB thể thao đều muốn có cậu nhưng cậu lại chơi với những kẻ bị xem thường là CLB Tâm Linh. Vào ngày nọ, CLB có được vật nguyền bị phong ấn, nhưng họ không hề biết đến sự khiếp sợ họ đã giải phóng khi phá đi lớp phong ấn...",
+    "cover_img": "img/Jujutsu Kaisen.jpg",
+    "list_chapter": [
+      {
+        "id": "JJSKaisen_c_01",
+        "content": "link ảnh chương 1"
+      }
+    ],
+    "vote": [
+      {
+        "user_id": "01",
+        "number": 5
+      },
+      {
+        "user_id": "02",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "id" : "ani_11",
+    "title": "Kochikame",
+    "describe": "KochiKame: Tokyo Beat Cops , là một bộ truyện tranh hài hước Nhật Bản được viết và minh họa bởi Osamu Akimoto . Bối cảnh diễn ra vào thời hiện tại, trong và xung quanh một đồn cảnh sát khu phố ( kōban ) ở trung tâm thành phố Tokyo , và xoay quanh những hành vi sai trái của cảnh sát trung niên Kankichi Ryotsu",
+    "cover_img": "img/Kochikame.jpg",
+    "list_chapter": [
+      {
+        "id": "Kochikame_c_01",
+        "content": "link ảnh chương 1"
+      }
+    ],
+    "vote": [
+      {
+        "user_id": "01",
+        "number": 5
+      },
+      {
+        "user_id": "02",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "id" : "ani_12",
+    "title": "Naruto",
+    "describe": "Kể về cuộc phưu lưu của Naruto chính là cậu bé đã may mắn sống xót trong một trận phong ba bão táp, tất cả mọi thứ đã ra đi chỉ còn duy nhất một mình cậu với cuộc phưu lưu đầy mạo hiểm, những cơn lốc xoáy và gió cát đã khiến cho biết bao nhiêu người bỏ mạng tại khu làng Lá, may mắn thay cậu đã được sư phụ của mình chính là người đã có nhiều quyền năng tối cao giúp đỡ, ai ai nghe sư phụ Jiraiya củng đều cảm thấy dường như Naruto thật mang mắn, cậu được sư phụ dạy và tập luyện nhiều loại sức mạnh chỉ có những cao thủ mới có thể lĩnh hội hết được.",
+    "cover_img": "img/naruto.png",
+    "list_chapter": [
+      {
+        "id": "Naruto_c_01",
+        "content": "link ảnh chương 1"
+      }
+    ],
+    "vote": [
+      {
+        "user_id": "01",
+        "number": 5
+      },
+      {
+        "user_id": "02",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "id" : "ani_13",
+    "title": "One Punch Man",
+    "describe": "Câu chuyện diễn ra tại thành phố Z của Nhật Bản tại thời điểm thế giới đầy những quái vật bí ẩn với sức mạnh ghê ghớm đã xuất hiện và gây ra biết bao nhiêu thảm họa. Câu chuyện sẽ tiếp diễn như thế nào? Mời các bạn theo dõi anime One Punch Man để cùng tham gia vào những cuộc phiêu lưu của Saitama, vị anh hùng với sức mạnh không tưởng nhé. ",
+    "cover_img": "img/One-Punch Man.jpg",
+    "list_chapter": [
+      {
+        "id": "OPMan_c_01",
+        "content": "link ảnh chương 1"
+      }
+    ],
+    "vote": [
+      {
+        "user_id": "01",
+        "number": 5
+      },
+      {
+        "user_id": "02",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "id" : "ani_14",
+    "title": "Chainsaw Man",
+    "describe": "Khi cha anh qua đời, Denji bị mắc kẹt với một khoản nợ khổng lồ và không có cách nào để trả lại. Tuy nhiên, nhờ sự giúp đỡ của một con chó Quỷ mà anh ta đã cứu tên là Pochita, Denji có thể trở thành một Thợ săn Quỷ làm việc cho Yakuza. Khi đám đông phản bội Denji và anh ta bị giết bởi một Ác quỷ, Pochita hy sinh bản thân để hồi sinh chủ nhân cũ của mình. Giờ đây, Denji đã được tái sinh thành một dạng lai giữa Quỷ-Người kỳ lạ nào đó. Anh ấy bây giờ là Chainsaw Man!",
+    "cover_img": "img/Oyasumi Punpun.jpg",
+    "list_chapter": [
+      {
+        "id": "ChainsawMan_c_01",
+        "content": "link ảnh chương 1"
+      }
+    ],
+    "vote": [
+      {
+        "user_id": "01",
+        "number": 5
+      },
+      {
+        "user_id": "02",
+        "number": 4
+      }
+    ]
+  },
+  {
   "id": "ani_15",
   "title": "Pokemon",
   "describe": "Pokémon lấy bối cảnh trong vũ trụ Pokemon hư cấu . Có rất nhiều khu vực đã xuất hiện trên các phương tiện truyền thông khác nhau của nhượng quyền thương mại Pokémon . Có 8 vùng chính của loạt game chính: Kanto, Johto, Hoenn, Sinnoh / Hisui, Unova, Kalos, Alola và Galar. Mỗi thế hệ trong số tám thế hệ của loạt phim chính được phát hành tập trung vào một khu vực mới. Mỗi khu vực bao gồm một số thành phố và thị trấn mà người chơi phải khám phá để vượt qua nhiều thử thách đang chờ đợi, chẳng hạn như Phòng tập thể dục , Cuộc thi và các đội phản diện. Tại các địa điểm khác nhau trong mỗi khu vực, người chơi có thể tìm thấy các loại Pokémon khác nhau, cũng như các vật phẩm và nhân vật hữu ích. Các khu vực khác nhau hoàn toàn không thể truy cập lẫn nhau trong một trò chơi, chỉ ngoại trừ Kanto và Johto được liên kết với nhau trong các phiên bản Pokémon Gold , Silver , Crystal , HeartGold và SoulSilver ",
