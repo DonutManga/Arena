@@ -96,6 +96,9 @@ header {
     width: 45px;
     height: 45px;
     border-radius: 50%;
+    background-image: url("../img/thao.jpg");
+    background-size: cover;
+    background-position: center;
 }
 #list-icon span ,#list-icon #avatar-header {
     margin-left: 25px;

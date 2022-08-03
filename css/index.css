@@ -34,7 +34,7 @@
 .slide-item p{
     font-weight: 400;
     font-size:16px;
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     color: #fff
 }
 .slide-item button a {
@@ -139,6 +139,9 @@ body {
     column-gap: 29px;
     row-gap: 5px;
     margin-top: 30px;
+}
+.comic-item {
+    text-decoration: none;
 }
 .comic-item img {
     display: block;
