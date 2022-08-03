@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    /*background: url("");*/
+    background: #1a1a1a;
 }
 /*Header*/
 header {
@@ -89,9 +89,6 @@ header {
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background: url("../img/thao.jpg");
-    background-size: cover;
-    background-position: center;
 }
 #list-icon span ,#list-icon #avatar-header {
     margin-left: 25px;
