@@ -2,9 +2,9 @@
 #banner {
     width: 100%;
     height: 700px;
-    background: url("../img/anh-bia.jpg");
+    /* background: url("../img/anh-bia.jpg"); */
     background-size: cover;
-    background-position: bottom;
+    /* background-position: bottom; */
     position: relative;
 }
 
@@ -32,6 +32,12 @@
     padding: 15px 30px;
     margin-top: 20px;
     box-shadow: 2px 2px 5px #1c1c1c;
+}
+.slide-item p{
+    font-weight: 400;
+    font-size:16px;
+    font-family: 'Roboto';
+    color: #fff
 }
 .slide-item button a {
     color: #FFFFFF;
