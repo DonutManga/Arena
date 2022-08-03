@@ -121,6 +121,9 @@ body {
 .filter-title-item p{
     display: block;
 }
+.filter-title-item svg{
+    margin-left: 4px;
+}
 .filter-title-item p,.filter-title-item span {
     font-family: "Roboto Thin",sans-serif;
 }
