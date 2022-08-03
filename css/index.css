@@ -164,13 +164,6 @@ body {
 
 
 /*Top Manga*/
-.title-item h2{
-    color: #DE0607;
-    border-bottom: solid 2px #DE0607;
-    text-align: left;
-    padding: 10px 0;
-    display: inline-block;
-}
 #TopComic-container{
     margin:0 100px 100px 100px;
 }
@@ -318,21 +311,65 @@ body {
 }
 /*TopBoard-end*/
 
-/*Button more*/
-.button-more {
+
+/*Blog*/
+#blog-container {
+    margin: 0 100px 50px 100px;
+}
+.blog-content {
+    width: 100%;
+}
+.blog-content-item {
     display: flex;
-    justify-content: center;
-    margin-top: 15px;
+    background-color: #2d2d2d;
+    padding: 30px;
+    border-radius: 15px;
+    align-items: center;
+    margin-bottom: 50px;
 }
-.button-more button {
-    background-color: #DE0607;
-    border-radius: 8px;
+.blog-content-item .blog-content-img {
+    display: block;
+    width: 564px;
+    height: 329px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.blog-content-item-text {
+    padding: 40px;
+    color: #FFFFFF;
+    width: 695px;
+}
+.blog-content-item-text h3 {
+    font-size: 25px;
+    margin: 0;
+}
+.blog-content-item-text span {
+    font-size: 14px;
+    font-family: "Roboto Medium",sans-serif;
+    margin: 10px 0 20px 0;
+    display: block;
+    opacity: 0.8;
+}
+.blog-content-item-text p {
+    display: block;
+    margin: 0;
+    opacity: 0.6;
+    font-size: 15px;
+    font-family: "Roboto Medium",sans-serif;
+}
+.blog-content-item-text button {
     border: none;
-    padding: 15px 30px;
+    background-color: #DE0607;
+    padding: 12px 30px;
+    border-radius: 8px;
+    margin-top: 80px;
 }
-.button-more button a {
+.blog-content-item-text button a {
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 600;
 }
-/*Button more-end*/
+/*Blog end*/
+
+
+
