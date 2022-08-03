@@ -20,7 +20,7 @@
     padding: 28px;
 }
 .top-manga-title{
-    margin-bottom: 30px;
+    margin-bottom: 24px;
     width: 320px;
     display: flex;
     justify-content: space-between;
@@ -69,11 +69,12 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 24px;
     padding: 0;
 }
 .item-top-manga img{
     width: 92px;
+    height: 116px;
     border-radius: 10px;
 }
 .info-top-manga{
@@ -101,8 +102,6 @@
     margin: 0 auto;
     text-decoration: none;
 }
-
-
 
 
 
