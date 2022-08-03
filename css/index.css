@@ -30,6 +30,12 @@
     margin-top: 20px;
     box-shadow: 2px 2px 5px #1c1c1c;
 }
+.slide-item p{
+    font-weight: 400;
+    font-size:16px;
+    font-family: 'Roboto';
+    color: #fff
+}
 .slide-item button a {
     color: #FFFFFF;
     font-weight: 600;
