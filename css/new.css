@@ -102,9 +102,31 @@
     margin: 0 auto;
     text-decoration: none;
 }
-
-
-
+.box-slide-new{
+    margin: 100px 100px 20px 100px;
+    height: 700px;
+}
+.swiper-slide-new{
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    border-radius: 10px;
+}
+.container{
+    margin: 100px 100px 20px 100px;
+}
+.box-final{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+.box-final a{
+    border-radius: 10px;
+    padding: 12px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #DE0607;
+}
 /*  */
 .comic{
     display: grid;
