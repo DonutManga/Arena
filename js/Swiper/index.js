@@ -1,4 +1,4 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper1 = new Swiper(".mySwiper", {
     direction: "vertical",
     pagination: {
         el: ".swiper-pagination",
@@ -7,10 +7,11 @@ var swiper = new Swiper(".mySwiper", {
     autoplay:true,
 });
 
-var swiper = new Swiper(".newSwiper", {
+var swiper2 = new Swiper(".newSwiper", {
     spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
-  });
+});
+
