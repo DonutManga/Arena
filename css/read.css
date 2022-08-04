@@ -1,0 +1,62 @@
+.reading{
+    margin: 100px 32px 40px 32px;
+}
+.reading-title{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 40px;
+}
+.reading svg{
+    width: 24px;
+}
+.title-item{
+    display: flex;
+    align-items: center;
+}
+.box-center{
+    color: #fff;
+    font-size: 24px;
+    gap: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.box-center a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #DE0607;
+    text-decoration: none;
+}
+.title-right ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.title-right{
+    justify-content: end;
+}
+.content-chapter{
+    display: flex;
+    flex-direction: column;
+    padding: 0 160px;
+}
+.page-chapter{
+    margin-top: 40px;
+    margin-bottom: 120px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.page-chapter a{
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    background-color: #DE0607;
+    text-decoration: none;
+}

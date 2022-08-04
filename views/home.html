@@ -1,0 +1,102 @@
+<div id="header-container">
+    <div class="flex">
+        <div id="logo-header">
+            <span><i class="fa-solid fa-bars"></i></span>
+            <a href="#/home"><img src="img/svg/logo.svg" alt="logo"></a>
+        </div>
+        <div id="nav-header">
+            <ul>
+                <li id="active-header"><a href="">Home</a></li>
+                <li><a href="#/manga/1">Manga</a></li>
+                <li><a href="#/news">News</a></li>
+                <li><a href="">Premium</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="list-icon">
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <span><i class="fa-solid fa-bell"></i></span>
+        <div id="avatar-header"></div>
+    </div>
+</div>
+</header>
+
+<section id="banner" style="background-image: url('./img/anh-bia.jpg')">
+    <!-- Swiper -->
+    <div id="banner-slide">
+        <div class="swiper mySwiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide-item">
+                        <h2>Welcome to Donut Manga!</h2>
+                        <button><a href="#">Start reading</a></button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-item">
+                        <h2>Welcome to Donut Manga!</h2>
+                        <button><a href="#">Start reading</a></button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-item">
+                        <h2>Welcome to Donut Manga!</h2>
+                        <button><a href="#">Start reading</a></button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-item">
+                        <h2>Welcome to Donut Manga!</h2>
+                        <button><a href="#">Start reading</a></button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-item">
+                        <h2>Welcome to Donut Manga!</h2>
+                        <button><a href="#">Start reading</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Begin-->
+<section id="filter">
+    <div id="filter-container" >
+        <div id="filter-title">
+            <div class="flex">
+                <div class="filter-title-item">
+                    <span>Thể loại<i class="fa-solid fa-caret-down"></i></span>
+                    <p>Tất cả</p>
+                </div>
+                <div class="filter-title-item">
+                    <span>Quốc gia<i class="fa-solid fa-caret-down"></i></span>
+                    <p>Nhật Bản</p>
+                </div>
+                <div class="filter-title-item">
+                    <span>Trạng thái<i class="fa-solid fa-caret-down"></i></span>
+                    <p>Đang phát hành</p>
+                </div>
+                <div class="filter-title-item">
+                    <span>Năm phát hành<i class="fa-solid fa-caret-down"></i></span>
+                    <p>2022</p>
+                </div>
+            </div>
+            <div class="filter-title-icon">
+                <span><i class="fa-solid fa-bars"></i></span>
+                <span><i class="fa-solid fa-grip"></i></span>
+            </div>
+        </div>
+
+        <div class="comic">
+            <div ng-repeat="comic in dataMangas">
+                <comic-item item="comic"></comic-item>
+            </div>  
+        </div>
+
+    </div>
+</section>
+<!--End-->
+
