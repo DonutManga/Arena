@@ -13,6 +13,9 @@ app.config(function ($routeProvider) {
         .when('/comment', {
             templateUrl : 'pages/comment.html',
         })
+        .when('/manga', {
+            templateUrl: 'pages/manga.html',
+        })
 
         .otherwise({redirectTo: '/'});
 });
