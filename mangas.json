@@ -30,6 +30,10 @@
       {
         "id": "BlueLock_c_01",
         "content": "link ảnh chương 1"
+      },
+      {
+        "id": "BlueLock_c_02",
+        "content": ""
       }
     ],
     "vote": [
@@ -73,7 +77,15 @@
     "list_chapter": [
       {
         "id": "conan_c_01",
-        "content": "link ảnh chương 1"
+        "content": "img/chap/conan1.jpg"
+      },
+      {
+        "id": "conan_c_02",
+        "content": "img/chap/conan2.jpg"
+      },
+      {
+        "id": "conan_c_03",
+        "content": "img/chap/conan3.jpg"
       }
     ],
     "vote": [
@@ -117,7 +129,15 @@
     "list_chapter": [
       {
         "id": "kimetsu_c_01",
-        "content": "link ảnh chương 1"
+        "content": "img/chap/demonslayer1.jpg"
+      },
+      {
+        "id": "kimetsu_c_02",
+        "content": "img/chap/demonslayer2.jpg"
+      },
+      {
+        "id": "kimetsu_c_03",
+        "content": "img/chap/demonslayer3.jpg"
       }
     ],
     "vote": [
@@ -161,7 +181,15 @@
     "list_chapter": [
       {
         "id": "FrT_c_01",
-        "content": "link ảnh chương 1"
+        "content": "img/chap/fairytail1.jpg"
+      },
+      {
+        "id": "FrT_c_02",
+        "content": "img/chap/fairytail2.jpg"
+      },
+      {
+        "id": "FrT_c_03",
+        "content": "img/chap/fairytail3.jpg"
       }
     ],
     "vote": [
@@ -249,7 +277,15 @@
     "list_chapter": [
       {
         "id": "Naruto_c_01",
-        "content": "link ảnh chương 1"
+        "content": "img/chap/Naruto1.jpg"
+      },
+      {
+        "id": "Naruto_c_02",
+        "content": "img/chap/Naruto2.jpg"
+      },
+      {
+        "id": "Naruto_c_03",
+        "content": "img/chap/Naruto3.jpg"
       }
     ],
     "vote": [
@@ -570,5 +606,34 @@
         "number": 4
       }
     ]
+  },
+  {
+    "id": "ani_27",
+    "title": "OnePiece",
+    "describe": "Truyện kể về Luffy- 1 thằng con ông cháu cha có ông làm cán bộ, bố làm cướp, gặp nhiều may mắn,....",
+    "cover_img": "img/onepiece.jpg",
+    "list_chapters": [
+      {
+        "id": "onepiece_c_01",
+        "content": "img/chap/onepiece1.jpg"
+      },
+      {
+        "id": "onepiece_c_02",
+        "content": "img/chap/onepiece2.jpg"
+      },
+      {
+        "id": "onepiece_c_03",
+        "content": "img/chap/onepiece3.jpg"
+      }
+    ],
+    "vote": [
+      {
+        "user_id": "01",
+        "number": 5
+      },
+      {
+        "user_id": "02",
+        "number": 4
+      },
   }
 ]
