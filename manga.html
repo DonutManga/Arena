@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--  css  -->
+    <link rel="stylesheet" href="css/manga.css">
+    <link rel="stylesheet" href="css/set.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--  Font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--  AngularJS  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+</head>
+<body ng-app="myApp">
+<!--Header begin-->
+<header>
+    <div id="header-container">
+        <div class="flex">
+            <div id="logo-header">
+                <span><i class="fa-solid fa-bars"></i></span>
+                <a href="index.html"><img src="img/svg/logo.svg" alt="logo"></a>
+            </div>
+            <div id="nav-header">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li id="active-header"><a href="manga.html">Manga</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="">Premium</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="list-icon">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            <span><i class="fa-solid fa-bell"></i></span>
+            <div id="avatar-header"></div>
+        </div>
+    </div>
+</header>
+<!--Header end-->
+
+
+<!--Manga detail-->
+    <section id="MangaDetail">
+        <div id="MangaDetail-container">
+            <div class="manga-detail">
+                <img src="img/Jujutsu%20Kaisen.jpg" alt="manga">
+                <div class="MangaDetail-text">
+                    <h2>Jujutsu Kaisen: Chú thuật hồi chiến<span><i class="fa-solid fa-bookmark"></i></span></h2>
+                    <span class="manga-breakcump">Action / Fantasy / Horror / MangaSchool / LifeShounen / Supernatural</span>
+                    <p class="manga-author">Tác giả:<span >Akutami Gege</span></p>
+                    <p class="manga-author">Phát hành:<span >2018</span></p>
+                    <p class="manga-author">Trạng thái:<span >Đang thực hiện</span></p>
+                    <div style="margin-top: 30px">
+                        <p class="manga-icon"><span><i class="fa-solid fa-heart"></i></span>Thích</p>
+                        <p class="manga-icon"><span><i class="fa-solid fa-book-bookmark"></i></span>Thêm vào thư viện</p>
+                    </div>
+                    <div class="manga-button">
+                        <button><a href="read.html">Chương đầu tiên</a></button>
+                        <button><a href="read.html">Chương mới nhất</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="manga-text-detail">
+                <p>Yuuji Itadori là một thiên tài có tốc độ và sức mạnh, nhưng cậu ấy muốn dành thời gian
+                    của mình trong Câu lạc bộ Tâm Linh. Một ngày sau cái chết của ông mình, anh gặp Megumi
+                    Fushiguro, người đang tìm kiếm vật thể bị nguyền rủa mà các thành viên CLB đã tìm thấy.
+                    Đối mặt với những con quái vật khủng khiếp bị "Ám", Yuuji nuốt vật thể bị phong ấn để có
+                    được sức mạnh của nó và cứu bạn bè của mình! Nhưng giờ Yuuji là người bị "Ám", và cậu ấy
+                    sẽ bị kéo vào thế giới ma quỷ ly kỳ của Megumi và những con quái vật độc ác ...</p>
+                <span>Xem thêm</span>
+            </div>
+        </div>
+    </section>
+<!--Manga detail end-->
+
+
+<!--Template-->
+<script type="text/ng-template" id="pages/list.html">
+    <div class="title-chapter">
+        <h2 onclick="check()" id="title-chapter-1" class="title-chapter-active"><a href="#/list">Danh sách chương</a></h2>
+        <h2 onclick="check()" id="title-chapter-2" ><a href="#/comment">Bình luận</a></h2>
+    </div>
+    <div class="chapter-list">
+        <div class="chapter-list-item">
+            <img src="img/KadeartJujutsuKaisen.jpg" alt="chapter">
+            <div class="flex-center-between">
+                <div class="chapter-list-title">
+                    <h2>Jujutsu Kaisen chap 191</h2>
+                    <span>16.07.2022</span>
+                </div>
+                <div class="chapter-list-button">
+                    <p><span><i class="fa-solid fa-heart"></i></span>16,072022</p>
+                    <button><a href="read.html">Đọc</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="chapter-list-item">
+            <img src="img/2.jpg" alt="chapter">
+            <div class="flex-center-between">
+                <div class="chapter-list-title">
+                    <h2>Jujutsu Kaisen chap 190</h2>
+                    <span>16.07.2022</span>
+                </div>
+                <div class="chapter-list-button">
+                    <p><span><i class="fa-solid fa-heart"></i></span>16,072022</p>
+                    <button><a href="read.html">Đọc</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="chapter-list-item">
+            <img src="img/6.jpg" alt="chapter">
+            <div class="flex-center-between">
+                <div class="chapter-list-title">
+                    <h2>Jujutsu Kaisen chap 189</h2>
+                    <span>16.07.2022</span>
+                </div>
+                <div class="chapter-list-button">
+                    <p><span><i class="fa-solid fa-heart"></i></span>16,072022</p>
+                    <button><a href="read.html">Đọc</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="chapter-list-item">
+            <img src="img/4.jpg" alt="chapter">
+            <div class="flex-center-between">
+                <div class="chapter-list-title">
+                    <h2>Jujutsu Kaisen chap 188</h2>
+                    <span>16.07.2022</span>
+                </div>
+                <div class="chapter-list-button">
+                    <p><span><i class="fa-solid fa-heart"></i></span>16,072022</p>
+                    <button><a href="read.html">Đọc</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="chapter-list-item">
+            <img src="img/5.jpg" alt="chapter">
+            <div class="flex-center-between">
+                <div class="chapter-list-title">
+                    <h2>Jujutsu Kaisen chap 187</h2>
+                    <span>16.07.2022</span>
+                </div>
+                <div class="chapter-list-button">
+                    <p><span><i class="fa-solid fa-heart"></i></span>16,072022</p>
+                    <button><a href="read.html">Đọc</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="chapter-list-item">
+            <img src="img/3.jpg" alt="chapter">
+            <div class="flex-center-between">
+                <div class="chapter-list-title">
+                    <h2>Jujutsu Kaisen chap 186</h2>
+                    <span>16.07.2022</span>
+                </div>
+                <div class="chapter-list-button">
+                    <p><span><i class="fa-solid fa-heart"></i></span>16,072022</p>
+                    <button><a href="read.html">Đọc</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="button-more">
+        <button><a href="#">Xem thêm</a></button>
+    </div>
+</script>
+<script type="text/ng-template" id="pages/comment.html">
+    <div class="title-chapter">
+        <h2><a href="#/list">Danh sách chương</a></h2>
+        <h2 class="title-chapter-active"><a href="#/comment">Bình luận</a></h2>
+    </div>
+    <div class="chapter-comment">
+        <div class="chapter-comment-container">
+            <div class="chapter-comment-item chapter-comment-item-first">
+                <img src="img/thao.jpg" alt="comment">
+                <input type="text" placeholder="Viết bình luận...">
+            </div>
+            <div class="chapter-comment-item">
+                <img src="img/td.jpg" alt="comment">
+                <div>
+                    <div class="comment-box">
+                        <div class="comment-box-container">
+                            <h4>Trang Đỗ</h4>
+                            <p>Cho em qua mônnnnnnnnnnnnn</p>
+                        </div>
+                    </div>
+                    <div class="comment-action">
+                        <span>Thích</span>
+                        <span>Phản hồi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chapter-comment-item">
+                <img src="img/avt.jpg" alt="comment">
+                <div>
+                    <div class="comment-box">
+                        <div class="comment-box-container">
+                            <h4>Trần Nhật Tuấn Cùi</h4>
+                            <p> Nếu các ngươi thành tâm muốn biết. <br>
+                                Thì ta sẵn lòng trả lời.<br>
+                                Đề phòng hủy diệt muôn nơi.<br>
+                                Bảo vệ thế giới đời đời bình yên.<br>
+                                Ta đây chính là Ngôn Nhất Trì người chồng đoản mệnh của em
+                            </p>
+                        </div>
+                    </div>
+                    <div class="comment-action">
+                        <span>Thích</span>
+                        <span>Phản hồi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chapter-comment-item">
+                <img src="img/c.jpg" alt="comment">
+                <div>
+                    <div class="comment-box">
+                        <div class="comment-box-container">
+                            <h4>Trần Mạnh Chiến</h4>
+                            <p>Em không biết gì nên vào cmt cho vui thôi ạ <br>
+                                Em không đặt hashtag hay captions gì cả nên là mọi người đón nhận thông điệp một cách cởi mở nhất nha<br>
+                                Xả xui online tại đây</p>
+                        </div>
+                    </div>
+                    <div class="comment-action">
+                        <span>Thích</span>
+                        <span>Phản hồi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chapter-comment-item">
+                <img src="img/avt%20dang%20tien%20hoang.png" alt="comment">
+                <div>
+                    <div class="comment-box">
+                        <div class="comment-box-container">
+                            <h4>Đặng Tiến Hoàng</h4>
+                            <p>Truyện hay như em luôn <br>
+                                Em đọc xong muốn bỏ ông tác giả vào lò quá</p>
+                        </div>
+                    </div>
+                    <div class="comment-action">
+                        <span>Thích</span>
+                        <span>Phản hồi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chapter-comment-item">
+                <img src="img/images.jpg" alt="comment">
+                <div>
+                    <div class="comment-box">
+                        <div class="comment-box-container">
+                            <h4>Gojo Satoru</h4>
+                            <p>Tác giả cho em mấy tập đầu bá quá trời. Mấy phần sau nằm trong cái hộp không làm ăn được gì.<br>
+                                Chán… <br>
+                                Mong mấy phần sau cho em ra ngoài chứ ở trong hộp hoài đụt lắm ạ :<</p>
+                        </div>
+                    </div>
+                    <div class="comment-action">
+                        <span>Thích</span>
+                        <span>Phản hồi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="NextPreviou">
+        <button><a href="#"><i class="fa-solid fa-arrow-left-long"></i></a></button>
+        <button><a href="#"><i class="fa-solid fa-arrow-right-long"></i></a></button>
+    </div>
+</script>
+<!--Template end-->
+
+<!--Chapter-->
+    <section id="chapter">
+        <div id="chapter-container" ng-view></div>
+    </section>
+<!--Chapter end-->
+
+<!--offer-->
+    <section id="offer">
+        <div id="offer-container">
+            <div class="offer-title">
+                <h2>Đề Xuất</h2>
+                <p>Xem thêm</p>
+            </div>
+            <div>
+                <div class="comic comic-2">
+                    <a href="read.html" class="comic-item comic-item-2">
+                        <img src="img/conan.jpg" alt="comic-item">
+                        <h4>Conan - Thám tử lừng danh Conan</h4>
+                    </a>
+                    <a href="read.html" class="comic-item comic-item-2">
+                        <img src="img/tokyoghoul.jpg" alt="comic-item">
+                        <h4>Tokyo Ghoul: Ngạ quỷ vùng Tokyo</h4>
+                    </a>
+                    <a href="read.html" class="comic-item comic-item-2">
+                        <img src="img/Naruto2.jpg" alt="comic-item">
+                        <h4>Naruto</h4>
+                    </a>
+                    <a href="read.html" class="comic-item comic-item-2">
+                        <img src="img/DemonSlayerKimetsuNoYaiba3.jpg" alt="comic-item">
+                        <h4>Demon Slayer: Kimetsu no Yaiba</h4>
+                    </a>
+                    <a href="read.html" class="comic-item comic-item-2">
+                        <img src="img/dragonball2.jpg" alt="comic-item">
+                        <h4>7 Viên Ngọc Rồng: Dragon Ball</h4>
+                    </a>
+                    <a href="read.html" class="comic-item comic-item-2">
+                        <img src="img/fairytail2.jpg" alt="comic-item">
+                        <h4>Fairy Tail: Hội pháp sư nổi tiếng</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--offer end-->
+
+
+<!--Footer Begin-->
+<footer>
+    <div id="footer-container">
+        <div id="logo-footer">
+            <img src="img/svg/logo.svg" alt="logo">
+            <div id="icon-footer">
+                <span><i class="fa-brands fa-facebook-f"></i></span>
+                <span><i class="fa-brands fa-twitter"></i></span>
+                <span><i class="fa-brands fa-instagram"></i></span>
+            </div>
+        </div>
+        <div id="link-footer">
+            <div class="link-footer-item">
+                <h3>Home</h3>
+                <p>Top Manga</p>
+                <p>Mới cập nhập</p>
+                <p>Bảng xếp hạng</p>
+                <p>Bài viết</p>
+            </div>
+            <div class="link-footer-item">
+                <h3>About</h3>
+                <p>Công ty</p>
+                <p>Chính sách bản quyền</p>
+                <p>Chính sách bảo mật</p>
+                <p>Quảng cáo</p>
+            </div>
+            <div class="link-footer-item">
+                <h3>Membership</h3>
+                <p>Đăng ký thành viên</p>
+                <p>Quà tặng</p>
+            </div>
+            <div class="link-footer-item">
+                <h3>Support</h3>
+                <p>Help</p>
+                <p>FAQ</p>
+                <p>Diễn đàn</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Footer end-->
+</body>
+<script src="js/manga.js"></script>
+</html>
