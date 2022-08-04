@@ -1,433 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="pageAnime">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-<!--  css  -->
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/set.css">
-<!--  Font awesome  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--  Font awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!--Swiper-->
+    <!--Swiper-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!-- AngularJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/set.css">
 </head>
 <body>
-<!--Header begin-->
-    <header>
-        <div id="header-container">
-            <div class="flex">
-                <div id="logo-header">
-                    <span><i class="fa-solid fa-bars"></i></span>
-                    <a href="index.html"><img src="img/svg/logo.svg" alt="logo"></a>
-                </div>
-                <div id="nav-header">
-                    <ul>
-                        <li id="active-header"><a href="">Home</a></li>
-                        <li><a href="manga.html">Manga</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="">Premium</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div id="list-icon">
-                <span><i class="fa-solid fa-magnifying-glass"></i></span>
-                <span><i class="fa-solid fa-bell"></i></span>
-                <div id="avatar-header"></div>
-            </div>
-        </div>
-    </header>
-<!--Header end-->
+    <div ng-view></div>
+    
 
 
 
-
-<!--Banner-->
-    <section id="banner" style="background-image: url('./img/anh-bia.jpg')">
-        <!-- Swiper -->
-        <div id="banner-slide">
-            <div class="swiper mySwiper">
-                <div class="swiper-pagination"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="slide-item">
-                            <h2>Welcome to Donut Manga!</h2>
-                            <button><a href="#">Start reading</a></button>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slide-item">
-                            <h2>Welcome to Donut Manga!</h2>
-                            <button><a href="#">Start reading</a></button>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slide-item">
-                            <h2>Welcome to Donut Manga!</h2>
-                            <button><a href="#">Start reading</a></button>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slide-item">
-                            <h2>Welcome to Donut Manga!</h2>
-                            <button><a href="#">Start reading</a></button>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slide-item">
-                            <h2>Welcome to Donut Manga!</h2>
-                            <button><a href="#">Start reading</a></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!--Banner End-->
-
-<!--Begin-->
-    <section id="filter">
-        <div id="filter-container" >
-            <div id="filter-title">
-                <div class="flex">
-                    <div class="filter-title-item">
-                        <span>Thể loại<i class="fa-solid fa-caret-down"></i></span>
-                        <p>Tất cả</p>
-                    </div>
-                    <div class="filter-title-item">
-                        <span>Quốc gia<i class="fa-solid fa-caret-down"></i></span>
-                        <p>Nhật Bản</p>
-                    </div>
-                    <div class="filter-title-item">
-                        <span>Trạng thái<i class="fa-solid fa-caret-down"></i></span>
-                        <p>Đang phát hành</p>
-                    </div>
-                    <div class="filter-title-item">
-                        <span>Năm phát hành<i class="fa-solid fa-caret-down"></i></span>
-                        <p>2022</p>
-                    </div>
-                </div>
-                <div class="filter-title-icon">
-                    <span><i class="fa-solid fa-bars"></i></span>
-                    <span><i class="fa-solid fa-grip"></i></span>
-                </div>
-            </div>
-            <div class="comic">
-                <a href="manga.html" class="comic-item">
-                    <img src="img/Naruto2.jpg" alt="comic-item">
-                    <h4>Naruto</h4>
-                </a>
-                <a href="manga.html" class="comic-item">
-                    <img src="img/DemonSlayerKimetsuNoYaiba2.jpg" alt="comic-item">
-                    <h4>Demon Slayer: Kimetsu no Yaiba</h4>
-                </a>
-                <a href="manga.html" class="comic-item">
-                    <img src="img/onepiece4.jpg" alt="comic-item">
-                    <h4>One Piece - Đảo Hải Tặc</h4>
-                </a>
-                <a href="manga.html" class="comic-item">
-                    <img src="img/conan.jpg" alt="comic-item">
-                    <h4>Conan - Thám tử lừng danh Conan</h4>
-                </a>
-                <a href="manga.html" class="comic-item">
-                    <img src="img/fairytail2.jpg" alt="comic-item">
-                    <h4>Fairy Tail: Hội pháp sư nổi tiếng</h4>
-                </a>
-
-                <a href="manga.html" class="comic-item">
-                </a>
-
-                <a href="manga.html" class="comic-item">
-
-                    <img src="img/tokyoghoul.jpg" alt="comic-item">
-                    <h4>Tokyo Ghoul: Ngạ quỷ vùng Tokyo</h4>
-                </a>
-                <a href="manga.html" class="comic-item">
-                    <img src="img/dre.jpg" alt="comic-item">
-                    <h4>Doraemon</h4>
-                </a>
-                <a href="manga.html" class="comic-item">
-                    <img src="img/Jagaaaaaan.jpg" alt="comic-item">
-                    <h4>Jagaaaaaan</h4>
-                </a>
-                <a href="manga.html" class="comic-item">
-                    <img src="img/ravemaster.jpg" alt="comic-item">
-                    <h4>Rave Master: Thanh kiếm biến hình</h4>
-                </a>
-                <a href="manga.html" class="comic-item">
-                    <img src="img/Yu%20Yu%20Hakusho.jpg" alt="comic-item">
-                    <h4>Yu Yu Hakusho: Hành trình U Linh Giới</h4>
-                </a>
-                <a href="manga.html" class="comic-item">
-                    <img src="img/Uzumaki.jpg" alt="comic-item">
-                    <h4>Uzumaki</h4>
-                </a>
-                <a href="manga.html" class="comic-item">
-                    <img src="img/Berserk.jpg" alt="comic-item">
-                    <h4>Berserk: Kiếm sĩ đen</h4>
-                </a>
-                <a href="manga.html" class="comic-item">
-                    <img src="img/Oyasumi%20Punpun.jpg" alt="comic-item">
-                    <h4>Oyasumi Punpun: Ngủ ngon Punpun</h4>
-                </a>
-                <a href="manga.html" class="comic-item">
-                    <img src="img/One-Punch%20Man.jpg" alt="comic-item">
-                    <h4>One-Punch Man</h4>
-                </a>
-                <a href="manga.html" class="comic-item">
-                    <img src="img/Kochikame.jpg" alt="comic-item">
-                    <h4>Kochikame</h4>
-                </a>
-            </div>
-        </div>
-    </section>
-<!--End-->
-
-<!--Top Manga Begin-->
-    <section id="TopComic">
-        <div id="TopComic-container">
-            <div class="title-item">
-                <h2>Top manga</h2>
-            </div>
-            <div class="comic-top">
-                <div class="comic-top-item">
-                    <div class="comic-top-item-img" style="background: url('./img/onepiece3.jpg');background-size: cover;background-position: center">
-                        <h4>One Piece - Đảo Hải Tặc</h4>
-                    </div>
-                </div>
-                <div class="comic-top-item">
-                    <div class="comic-top-item-img" style="background: url('./img/SLAM-DUNK.jpg');background-size: cover;background-position: center">
-                        <h4>Slam Dunk – Cao thủ bóng rổ</h4>
-                    </div>
-                </div>
-                <div class="comic-top-item">
-                    <div class="comic-top-item-img" style="background: url('./img/bleach.png');background-size: cover;background-position: center">
-                        <h4>Bleach: Sứ giả thần chết</h4>
-                    </div>
-                </div>
-                <div class="comic-top-item">
-                    <div class="comic-top-item-img" style="background: url('./img/titan.png');background-size: cover;background-position: center">
-                        <h4>Attack on Titan: Đại chiến Titan</h4>
-                    </div>
-                </div>
-                <div class="comic-top-item">
-                    <div class="comic-top-item-img" style="background: url('./img/kimetsu.jpg');background-size: cover;background-position: center">
-                        <h4>Demon Slayer: Kimetsu no Yaiba</h4>
-                    </div>
-                </div>
-                <div class="comic-top-item">
-                    <div class="comic-top-item-img" style="background: url('./img/naruto.png');background-size: cover;background-position: center">
-                        <h4>Naruto</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!--Top Manga End-->
-
-<!--New-->
-    <section id="NewUpdate">
-        <div id="NewUpdate-container">
-            <div class="title-item">
-                <h2>Mới Cập Nhập</h2>
-            </div>
-            <div>
-                <div class="comic-top">
-                    <div class="comic-top-item">
-                        <div class="comic-top-item-img comic-top-item-img-2" style="background: url('./img/onepiece3.jpg');background-size: cover;background-position: center">
-                            <h4>One Piece - Đảo Hải Tặc</h4>
-                        </div>
-                    </div>
-                    <div class="comic-top-item">
-                        <div class="comic-top-item-img comic-top-item-img-2" style="background: url('./img/Yuuji Itadori.jpg');background-size: cover;background-position: center">
-                            <h4>Jujutsu Kaisen: Chú thuật hồi chiến</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="comic comic-2">
-                    <a href="manga.htm" class="comic-item comic-item-2">
-                        <img src="img/conan.jpg" alt="comic-item">
-                        <h4>Conan - Thám tử lừng danh Conan</h4>
-                    </a>
-                    <a href="manga.htm" class="comic-item comic-item-2">
-                        <img src="img/tokyoghoul.jpg" alt="comic-item">
-                        <h4>Tokyo Ghoul: Ngạ quỷ vùng Tokyo</h4>
-                    </a>
-                    <a href="manga.htm" class="comic-item comic-item-2">
-                        <img src="img/Naruto2.jpg" alt="comic-item">
-                        <h4>Naruto</h4>
-                    </a>
-                    <a href="manga.htm" class="comic-item comic-item-2">
-                        <img src="img/DemonSlayerKimetsuNoYaiba3.jpg" alt="comic-item">
-                        <h4>Demon Slayer: Kimetsu no Yaiba</h4>
-                    </a>
-                    <a href="manga.htm" class="comic-item comic-item-2">
-                        <img src="img/dragonball2.jpg" alt="comic-item">
-                        <h4>7 Viên Ngọc Rồng: Dragon Ball</h4>
-                    </a>
-                    <a href="manga.htm" class="comic-item comic-item-2">
-                        <img src="img/fairytail2.jpg" alt="comic-item">
-                        <h4>Fairy Tail: Hội pháp sư nổi tiếng</h4>
-                    </a>
-                </div>
-            </div>
-            <div class="button-more">
-                <button><a href="#">Xem thêm</a></button>
-            </div>
-        </div>
-    </section>
-<!--New end-->
-
-<!--Top-->
-    <section id="TopBoard">
-        <div id="TopBoard-container">
-            <div class="title-item">
-                <h2>Bảng Xếp Hạng</h2>
-            </div>
-            <div class="TopBoard">
-                <div class="TopBoard-item">
-                    <div class="TopBoard-top">
-                        <img src="img/svg/award.svg" alt="icon" >
-                        <span>1</span>
-                    </div>
-                    <div class="TopBoard-img">
-                        <img src="img/onepiece2.jpg" alt="topboard">
-                    </div>
-                    <div class="TopBoard-text">
-                        <h3>One Piece - Đảo Hải Tặc</h3>
-                        <p>Một cậu bé tên Monkey D. Luffy, được khuyến khích bởi người anh hùng thuở nhỏ Shanks "Tóc đỏ", giong buồm ra khơi trên chuyến hành trình tìm kho...</p>
-                    </div>
-                </div>
-                <div class="TopBoard-item">
-                    <div class="TopBoard-top">
-                        <img src="img/svg/award.svg" alt="icon" >
-                        <span>2</span>
-                    </div>
-                    <div class="TopBoard-img">
-                        <img src="img/Jujutsu%20Kaisen.jpg" alt="topboard">
-                    </div>
-                    <div class="TopBoard-text">
-                        <h3>Jujutsu Kaisen: Chú thuật hồi chiến</h3>
-                        <p>Yuuji Itadori là một thiên tài có tốc độ và sức mạnh, nhưng cậu ấy muốn dành thời gian của mình trong Câu lạc bộ Tâm Linh...</p>
-                    </div>
-                </div>
-            </div>
-            <div class="TopBoard TopBoard-2">
-                <div class="TopBoard-item TopBoard-item-2">
-                    <div class="TopBoard-top TopBoard-top-2">
-                        <img src="img/svg/award.svg" alt="icon" >
-                        <span>3</span>
-                    </div>
-                    <div class="TopBoard-img TopBoard-img-2">
-                        <img src="img/conan2.jpg" alt="topboard">
-                    </div>
-                    <div class="TopBoard-text TopBoard-text-2">
-                        <h3>Conan - Thám tử lừng danh Conan</h3>
-                        <p>Mở đầu câu truyện, cậu học sinh trung học 17 tuổi...</p>
-                    </div>
-                </div>
-                <div class="TopBoard-item TopBoard-item-2">
-                    <div class="TopBoard-top TopBoard-top-2">
-                        <img src="img/svg/award.svg" alt="icon" >
-                        <span>4</span>
-                    </div>
-                    <div class="TopBoard-img TopBoard-img-2">
-                        <img src="img/OneForAll3.jpg" alt="topboard">
-                    </div>
-                    <div class="TopBoard-text TopBoard-text-2">
-                        <h3>My Hero Academia: Học Viện Anh Hùng</h3>
-                        <p>Vào tương lai, lúc mà con người với những sức mạnh siêu nhiên là điều thường thấy quanh...</p>
-                    </div>
-                </div>
-                <div class="TopBoard-item TopBoard-item-2">
-                    <div class="TopBoard-top TopBoard-top-2">
-                        <img src="img/svg/award.svg" alt="icon" >
-                        <span>5</span>
-                    </div>
-                    <div class="TopBoard-img TopBoard-img-2">
-                        <img src="img/DemonSlayerKimetsuNoYaiba3.jpg" alt="topboard">
-                    </div>
-                    <div class="TopBoard-text TopBoard-text-2">
-                        <h3>Demon Slayer: Kimetsu no Yaiba</h3>
-                        <p>Tanjiro là con cả trong một gia đình không còn người cha. Một hôm, Tanjiro đi bán than...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!--Top end-->
-
-<!--Blog-->
-    <section id="blog">
-        <div id="blog-container">
-            <div class="title-item">
-                <h2>Bài Viết</h2>
-            </div>
-            <div class="blog-content">
-                <div class="blog-content-item">
-                    <img class="blog-content-img" src="img/Tokyo%20Revengers.jpg" alt="content item">
-                    <div class="blog-content-item-text">
-                        <h3>Tokyo Revengers: Kịch trường của takemichi</h3>
-                        <span>Phát hành: 2017</span>
-                        <p>Takemichi, thanh niên thất nghiệp còn trinh, được biết rằng người
-                            con gái đầu tiên và cũng là duy nhất cho đến bây giờ mà anh hẹn hò
-                            là từ trung học đã chết. Sau một vụ tai nạn, anh ta thấy mình được
-                            quay về những ngày cấp hai. Anh ta thề sẽ thay đổi tương lai và giữ
-                            lấy người con gái ấy, để làm việc đó, anh ta quyết định sẽ vươn lên
-                            làm trùm băng đảng khét tiếng nhất ở vùng Kantou.</p>
-                        <button><a href="#">Đọc ngay</a></button>
-                    </div>
-                </div>
-                <div class="blog-content-item">
-                    <img class="blog-content-img" src="img/Yuuji%20Itadori.jpg" alt="content item">
-                    <div class="blog-content-item-text">
-                        <h3>Jujutsu Kaisen: Chú thuật hồi chiến</h3>
-                        <span>Phát hành: 2018</span>
-                        <p>Yuuji Itadori là một thiên tài có tốc độ và sức mạnh, nhưng
-                            cậu ấy muốn dành thời gian của mình trong Câu lạc bộ Tâm Linh.
-                            Một ngày sau cái chết của ông mình, anh gặp Megumi Fushiguro,
-                            người đang tìm kiếm vật thể bị nguyền rủa mà các thành viên CLB
-                            đã tìm thấy. Đối mặt với những con quái vật khủng khiếp bị "Ám",
-                            Yuuji nuốt vật thể bị phong ấn để có được sức mạnh của nó và cứu bạn
-                            bè của mình! Nhưng giờ Yuuji là người bị "Ám", và cậu ấy sẽ bị kéo
-                            vào thế giới ma quỷ ly kỳ của Megumi và những con quái vật độc ác ...</p>
-                        <button><a href="#">Đọc ngay</a></button>
-                    </div>
-                </div>
-                <div class="blog-content-item">
-                    <img class="blog-content-img" src="img/Blue%20Lock.jpg" alt="content item">
-                    <div class="blog-content-item-text">
-                        <h3>Blue Lock</h3>
-                        <span>Phát hành: 2018</span>
-                        <p>Yoichi Isagi đã bỏ lỡ cơ hội tham dự giải Cao Trung toàn quốc do đã
-                            chuyền cho đồng đội thay vì tự thân mình dứt điểm. Cậu là một trong
-                            300 chân sút U-18 được tuyển chọn bởi Jinpachi Ego, người đàn ông được
-                            Hiệp Hội Bóng Đá Nhật Bản thuê sau hồi FIFA World Cup năm 2018, nhằm
-                            dẫn dắt Nhật Bản vô địch World Cup bằng cách tiêu diệt nền bóng đá
-                            Nhật Bản. Kế hoạch của Ego gồm việc cô lập 300 tay sút trong một nhà
-                            ngục - dưới một tổ chức với tên gọi là "Blue Lock", với mục tiêu là....</p>
-                        <button><a href="#">Đọc ngay</a></button>
-                    </div>
-                </div>
-                <div class="button-more button-more-2">
-                    <button><a href="#">Xem thêm</a></button>
-                </div>
-            </div>
-        </div>
-    </section>
-<!--Blog end-->
-
-<!--  Other  -->
-    <div id="ButtonBackTop">
-        <a href="#banner">
-            <i class="fa-solid fa-angle-up"></i>
-        </a>
-    </div>
-<!--  Other end -->
-
-
-
-<!--Footer Begin-->
+    <!--Footer Begin-->
     <footer>
         <div id="footer-container">
             <div id="logo-footer">
@@ -467,9 +63,29 @@
             </div>
         </div>
     </footer>
-<!--Footer end-->
+    <!--Footer end-->
+
+    
+
+    <!-- Modules -->
+    <script src="./js/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="./js/controllers/HomeController.js"></script>
+    <script src="./js/controllers/ReadController.js"></script>
+    <script src="./js/controllers/NewController.js"></script>
+    <script src="./js/controllers/MangaController.js"></script>
+
+    <!-- Services -->
+    <script src="./js/services/dataManga.js"></script>
+    <!-- Directives -->
+    <script src="js/directives/comic-item.js"></script>
+
+
+
+    <!--Swiper-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/Swiper/index.js"></script>
+    
 </body>
-<!--  Swiper  -->
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-<script src="js/index.js"></script>
 </html>
